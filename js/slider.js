@@ -17,7 +17,13 @@ var navCounter = document.querySelector('.jl-navigator-counter span');
 
 
 //Capturando larguras individuais
-var containerWidth = sliderContainer.parentElement.offsetWidth;
+
+if(windows.containerWidth < 992){
+    var containerWidth = sliderContainer.parentElement.offsetWidth -30;
+}else {
+    var containerWidth = sliderContainer.parentElement.offsetWidth;
+
+}
 
 //Passando larguras dinâmicas
 sliderContainer.style.width = containerWidth + 'px';
