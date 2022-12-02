@@ -354,7 +354,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
         position: fixed;
         right: 30px;
         top: 30px;
-        z-index: 900;
+        z-index: 1250;
         cursor: pointer;
     }
 
