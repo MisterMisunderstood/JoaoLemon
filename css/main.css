@@ -824,13 +824,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     .jl-avatar-sobre {
         position: relative;
         height: 430px;
+        padding-left: 0;
+        padding-right: 15px;
+        
+        
+        
     }
 
     .jl-box-img {
         width: 100%;
-        position: absolute;
-        left: 0px;
+        position: relative;
+        left: -15px;
         bottom: 0px;
+        
     }
 
     .jl-titulo-sobre, .jl-info-sobre, .jl-premios-sobre {
@@ -1335,6 +1341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
     .jl-avatar-sobre {
         height: 100%;
+        
     }
 
     .jl-titulo-sobre {
@@ -1353,6 +1360,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     .jl-box-img {
         width: 100%;
         display: table;
+        
     }
 
      /* ----- 404 ------- */
@@ -1385,6 +1393,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 @media screen and (min-width: 1024px) and (max-width: 1024px){
     .jl-avatar-sobre {
         height: 500px;
+        display: table;
     }
 }
 
